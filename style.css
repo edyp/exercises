@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+header{
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+	padding: 3vw 10vw 0 10vw;
+}
+
+h1{
+	font-size: 3vw;
+	margin: 0;
+	color: inherit;
+	z-index: 10;
+}
+
+h2{
+	font-size: 2.4vw;
+	margin: 6vw 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-size: 1.5vw;
+}
+
+#scroll_button{
+	font-weight: bold;
+	position: fixed;
+	transform: rotate(-90deg);
+	transform-origin: left top;
+	bottom: 10%;
+	left: 12vw;
+}
+
+.left_side{
+	float: left;
+}
+
+.right_side{
+	float: right;
+	display: flex;
+}
+
+.logo{
+	margin-right: 2.85vw;
+}
+
+.phone_number{
+	font-size: 14px;
+	color: #92a1a5;
+}
+
+.phone_number img{
+	padding-right: 5px;
+}
+
+.navigation{
+	margin-top: 12px;
+	align-items: center;
+}
+
+.shop_link{
+	font-size: 16px;
+	color: #fff;
+	border-bottom: 1px rgba(255,255,255,0.3) solid;
+	transition: border-color 200ms ease;
+	display: block;
+	margin-right: 1.85vw;
+	float: left;
+}
+
+.shop_link:hover{
+	border-bottom: 1px rgba(255,255,255,1) solid;
+}
+
+.hamburger-box{
+	margin-top: -3px;
+	width: 24px;
+	float: left;
+}
+
+.hamburger-bar, .hamburger-bar:before, .hamburger-bar:after{
+	display: block;
+	height: 2px;
+	width: 24px;
+	background-color: #fff;
+	position: absolute;
+}
+
+.hamburger-bar:before{
+	content: "";
+	bottom: 5px;
+}
+
+.hamburger-bar:after{
+	content: "";
+	top: 5px;
+}
+
+.intro{
+	position: relative;
+	height: 51.6vw;
+}
+
+.grey{
+	background-color: #eff2f6;
+	width: 62%;
+	height: 100%;
+	padding-left: 15vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.red{
+	background-color: #ff343d;
+	width: 38%;
+	height: 100%;
+}
+
+.drone_handler{
+	background-color: #fff;
+	width: 31vw;
+	height: 31vw;
+	position: absolute;
+	border-radius: 16vw;
+	left: 46%;
+	top: 18%;
+}
+
+.Phantom{
+	height: 90%;
+	position: absolute;
+	right: -28%;
+	top: 7%;
+	z-index: 10;
+}
+
+.model_name{
+	line-height: 2em;
+	padding-left: 
+}
+
+
+.short_text{
+	font-size: 0.7vw;
+	color: #92a1a5;
+	width: 20vw;
+	line-height: 2em;
+	z-index: 10;
+}
+
+#from_up_to_down{
+	position: absolute;
+	transform: rotate(90deg);
+	transform-origin: top left;
+	font-size: 18.5vw;
+	font-weight: bold;
+	color: #ff343d;
+	text-shadow: 0 0 55px rgba(0,1,1,0.15);
+	top: -10px;
+	left: 100%;
+}
+
+.flying{
+	height: 30vw;
+	position: relative;
+}
+
+.test_fly{
+	background-image: url("../Mars/img/fly.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 30%;
+	padding-left: 11vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.circle:before{
+	content: "";
+	background-color: rgba(232,236,241,0.5);
+	border-radius: 9.5vw;
+	width: 19vw;
+	height: 19vw;
+	position: absolute;
+}
+
+.circle:after{
+	content: "";
+	background-color: #e8ecf1;
+	border-radius: 6vw;
+	width: 12vw;
+	height: 12vw;
+	position: absolute;
+}
+
+.circle{
+	background-color: rgba(239,242,246,0.5);
+	border-radius: 12.3vw;
+	width: 24.6vw; 
+	height: 24.6vw;
+	display: inherit;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	right: 57%;
+	z-index: 0;
+}
+
+.presentation{
+	background-image: url("../Mars/img/roads.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 70%;
+	position: relative;
+}
+
+.mysterious_text{
+	background-color: rgba(0,0,0,0.65);
+	height: 100%;
+	width: 31.5vw;
+	color: #fff;
+	padding-left: 4.5vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.more_info_box{
+	transform: rotate(-90deg);
+	transform-origin: left top;
+	position: absolute;
+	right: -8%;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	direction: rtl;
+	font-size: 0.9vw;
+	bottom: -3.2em;
+	width: 28%;
+}
+
+#animated_line{
+	height: 1px;
+	width: 50%;
+	background-color: #fff;
+	margin-right: 10px;
+}
+
+.more_info_field{
+	height: 3.2em;
+	width: 10em;
+	background-color: #fff;
+	border-radius: 1.6em;
+	position: relative;
+}
+
+.more_info_field .text{
+	position: absolute;
+	top: 33%;
+	left: 20%;
+	font-weight: bold;
+}
+
+.features{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 0 9vw;
+	position: relative;
+}
+
+.features .box{
+	width: 25%;
+	margin-bottom: 8%;
+	float: left;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.features .icon{
+	height: 4.55vw;
+}
+
+.vision{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	height: initial;
+}
+
+.foto{
+	background-image: url("./img/vision.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 49%;
+	height: inherit;
+}
+
+
+.generation{
+	background-color: #232323;
+	width: 51%;
+	padding: 9.4vw 0 9.4vw 6.5vw;
+	right: 0;
+	position: relative;
+}
+
+.huge{
+	font-size: 4.6vw;
+	display: block;
+	position: relative;
+}
+
+.white_text{
+	color: #fff;
+}
+
+.red_text{
+	color: #ff343d;
+}
+
+.link_field{
+	font-size: 0.9vw;
+	font-weight: bold;
+	padding: 1.2em 2em;
+	margin-top: 2.7em;
+	border: 2px solid #3b3b3b;
+	border-radius: 1.9em;
+	display: inline-block;
+}
+.decoration_icon{
+	position: absolute;
+	width: 15.8vw;
+	right: 0;
+	top: 8.5%;
+}
+
+.products{
+	position: relative;
+	overflow: hidden;
+}
+
+.generation_prods{
+	padding: 16.6vw 0 11.6vw 10.75vw;
+}
+
+.Phantom_second{
+	height: 29.5vw;
+	position: absolute;
+	right: -6.5vw;
+	top: 8.5vw;
+	overflow: hidden;
+}
+
+.prods{
+	border-color: #eff2f6;
+	margin-top: 3.4em;
+}
+
+.journey{
+	background-image: url("./img/port.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 59.5vw;
+}
+
+.quick_start_box{
+	display: inline-block;
+	position: absolute;
+	bottom: 9vw;
+	width: 100%;
+	text-align: center;
+}
+
+.nice_copy{
+	font-size: 4.6vw;
+	font-weight: bold;
+	letter-spacing: 0.06em;
+}
+
+.start{
+	border: none;
+	background-color: #fff;
+	color: #318f76;
+}
+
+footer{
+	height: 26.9vw;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.watersign_phantom{
+	font-size: 10vw;
+	font-weight: bold;
+	text-shadow: 14px 8px 95px rgba(0,0,0,0.05);
+}
+
+.footlogo{
+	position: absolute;
+	left: 47%;
+	bottom: 47%;
+}
